@@ -1,0 +1,74 @@
+//create class,method and object
+/*
+class Basics
+{
+   void message()
+   {
+       System.out.println("hello");
+   }
+   public static void main(String[] args)
+   {
+       Basics a=new Basics();
+       System.out.println("world");
+       a. message();
+   }
+}
+*/
+
+//print out name
+*/
+class Name
+{
+    public static void main(String[] args)
+    {
+        System.out.println("ROSHI");
+    }
+}
+*/
+
+
+//comments
+/*
+public class Comments
+{
+    public static void main(String[] args)
+    {
+        System.out.println("Multiline comment");
+        System.out.println("Single line comment");
+    }
+}
+*/
+
+//variables
+/*
+class variables
+    {
+        public static void main(String[] args)
+        {
+            int a=10;
+            float b=20.0f;
+            boolean d=true;
+            double c= 22.22;
+            System.out.println(a);
+            System.out.println(b);
+            System.out.println(d);
+            System.out.println(c);      
+            
+        }
+    }
+*/
+
+//print name using functions
+/*
+class Name
+{
+        static void name()
+        {
+            System.out.println("Roshitha");
+        }
+        public static void main(String[] args)
+        {
+            name();
+        }
+    }
+*/
