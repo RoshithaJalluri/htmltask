@@ -65,3 +65,49 @@ class Operators
     }
 }*/
 
+
+/*
+logical
+class Logical
+{
+    public static void main(String[] args)
+    {
+        int a=10,b=5;
+        System.out.println(a>b && b<a);
+        System.out.println(a<b || b<a);
+        System.out.println(!(a<b || b<a));
+    }
+}
+*/
+
+/*
+bitwise
+class Bitwise
+{
+    public static void main(String[] args)
+    {
+        int a=10,b=5;
+        System.out.println(a&b);
+        System.out.println(a|b);
+        System.out.println(a^b);
+        System.out.println(a>>2);
+        System.out.println(a<<2);
+    }
+}
+*/
+
+
+/*
+conditional
+class Conditional
+{
+    public static void main(String[] args)
+    {
+        int a=10,b=5;
+        int max=(a>b)?a:b;
+        int min=(a<b)?a:b;
+        System.out.println(max);
+        System.out.println(min);
+    }
+}
+*/
