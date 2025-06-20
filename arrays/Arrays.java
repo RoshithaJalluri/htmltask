@@ -231,6 +231,64 @@ public class Arrays
 }
 */
 
+//duplicates in array
+/*
+class Arrays
+{
+    public static void main(String[] args)
+    {
+        int a[]={2,3,4,5,6};
+        for(int i=0;i<a.length;i++)
+        {
+            for(int j=i+1;j<a.length;j++)
+            {
+                if(a[i]==a[j])
+                {
+                    System.out.println("Duplicate is found: "+ a[i]);
+                }
+            }
+        }
+        System.out.println("Duplicate not found");
+    }
+}
+*/
+
+
+//remove duplicates from array
+/*
+class Arrays
+{
+    public static void main(String[] args)
+    {
+        int a[] = {2, 3, 4, 5, 3};
+        int b[] = new int[a.length];
+        int k = 0;
+        for(int i = 0; i < a.length; i++)
+        {
+            boolean isDuplicate = false;
+            for(int j = i + 1; j < a.length; j++)
+            {
+                if(a[i] == a[j])
+                {
+                    isDuplicate = true;
+                    break;
+                }
+            }
+            if(!isDuplicate)
+            {
+                b[k] = a[i];
+                k++;
+            }
+        }
+        System.out.println("After removing Duplicate");
+        for(int i = 0; i < k; i++)
+        {
+            System.out.print(b[i] + " ");
+        }
+    }
+}
+*/
+
 
 
 
